@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main-container">
+        <div class="left-wrap">
+            <div>
+                <input type="text" id="usernameInput" placeholder="Your Name">
+                <button id="loginButton">🎬</button>
+            </div>
+            <div id="time-box">
+                <p id="greeting" style="display: none;"></p>
+                <p id="time"></p>
+            </div>
+            <div id="weather">
+                <div>
+                    <span class="temp"></span>
+                    <span class="city"></span>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div>
+                <div id="quote">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="todo">
+                <form id="todo-form">
+                    <input type="text" placeholder="😉오늘의 긍정 한마디 적기!" required>
+                </form>
+                <ul id="todo-list"></ul>
+            </div>
+            
+            
+            
+        </div>    
+    </main>
+    <script src="script.js"></script>
+    <script src="todo.js"></script>
+    <script src="weather.js"></script>
+    <script src="quote.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

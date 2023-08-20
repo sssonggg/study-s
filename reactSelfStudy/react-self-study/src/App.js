@@ -1,5 +1,5 @@
-import MemoizedButton from './Button';
-import Button from './Button';
+import MemoizedButton from './components/Button';
+import Button from './components/Button';
 import React, { useState } from 'react';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1>Welcome!😁</h1>
       <MemoizedButton text={value} onClick={changeValue}/>
-      <MemoizedButton text="Continue"/>
+      <MemoizedButton text="Continue" fontSize={"sdkfj"}/>
     </div>
   );
 }

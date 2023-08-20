@@ -1,0 +1,176 @@
+/* CSS Reset */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    box-sizing: border-box;
+  }
+
+body {
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: background-image 0.8s ease-in-out;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display:flex;
+    justify-content:space-around; 
+    align-items: center; 
+  }
+
+.left-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+ #usernameInput {
+    width: 80px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #c6e3ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #aed1f7;
+  }
+
+ #greeting {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+#time-box{
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+#weather {
+ color: white;
+ display: flex;
+ align-items: center; 
+ text-align: center;
+}
+
+#weather .temp {
+    width: 100%;
+    font-size: 30px;
+    display: block;
+}
+#weather img {
+    width: 70px;
+}
+
+.container {
+    width: 70%;
+    height: 85%;
+    background: rgba(255, 255, 255, 0.082);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin: 20px;
+  }
+
+  #todo {
+    width: 300px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #todo-form input[type="text"] {
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  #todo-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #todo-list li span {
+    color: #3f3f3f;
+    font-family: 'Dongle', sans-serif;
+  }
+
+
+  #todo-list li button {
+    background-color: #ffeed5;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50%;
+    padding: 5px 5px;
+    cursor: pointer;
+  }
+
+  #todo-list li button:hover {
+    background-color: hsl(0, 100%, 87%);
+  }
+
+  .box {
+    width: calc(20% - 10px); 
+    height: calc(40% - 10px); 
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 5px; 
+    box-sizing: border-box; 
+  }
+
+  #quote {
+    font-size: 25px;
+    font-family: 'Dongle', sans-serif;
+  }
+
+  
